@@ -21,8 +21,4 @@ export function configure(aurelia, configCallback) {
   aurelia.globalResources('./component/autocomplete');
 }
 
-const logger = getLogger('aurelia-autocomplete');
-
-export {
-  logger
-};
+export const logger = getLogger('aurelia-autocomplete');

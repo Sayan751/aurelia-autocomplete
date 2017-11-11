@@ -14,9 +14,7 @@ export declare {
   AutoCompleteCustomElement
 } from 'aurelia-autocomplete/component/autocomplete';
 export declare function configure(aurelia?: any, configCallback?: any): any;
-export declare {
-  logger
-};
+export declare const logger: any;
 export declare class AutoCompleteCustomElement {
   lastFindPromise: any;
   

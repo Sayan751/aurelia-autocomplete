@@ -24,7 +24,5 @@ define(['exports', './component/autocomplete', 'aurelia-view-manager', 'aurelia-
     aurelia.globalResources('./component/autocomplete');
   }
 
-  var logger = (0, _aureliaLogging.getLogger)('aurelia-autocomplete');
-
-  exports.logger = logger;
+  var logger = exports.logger = (0, _aureliaLogging.getLogger)('aurelia-autocomplete');
 });
